@@ -24,29 +24,29 @@ body {
 /* header section */
 
 .header {
-    background-image: url(/images/Hero-bg.png);
+    background-image: url(../images/Hero-bg.png);
 
 }
 
 /* font  */
 .raleway-font {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight:400;
-  font-style: normal;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 
 
 .inter-font {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
-.inter-for-logo{
-        font-size: 34px;
+.inter-for-logo {
+    font-size: 34px;
     font-weight: 900;
     color: #4E47FF;
 }
@@ -229,11 +229,11 @@ div.action-right img {
     font-size: 80px;
     font-weight: bold;
     color: #4E47FF;
-    
-      font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight:bold;
-  font-style: normal;
+
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
 }
 
 .small-parts-caption {
@@ -244,38 +244,39 @@ div.action-right img {
     font-size: 20px;
     text-align: center;
 
-      font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
+
 /* focus-better section */
 
 
-#focus-better{
-width: 1140px;
-margin: auto;
-padding-top: 130px;
+#focus-better {
+    width: 1140px;
+    margin: auto;
+    padding-top: 130px;
 
-background-color: white
+    background-color: white
 }
 
-.focas-better-title{
-        font-size: 50px;
+.focas-better-title {
+    font-size: 50px;
     font-weight: bold;
     margin: auto;
     text-align: center;
 }
 
-.focas-better-sub-title{
-font-size: 16px;
-color: color-mix(in srgb, #000000, transparent 50%);
-margin-top: 20px;
-text-align: center;
-    
+.focas-better-sub-title {
+    font-size: 16px;
+    color: color-mix(in srgb, #000000, transparent 50%);
+    margin-top: 20px;
+    text-align: center;
+
 }
 
-#btn-better-fks{
+#btn-better-fks {
 
     width: 195px;
     font-size: 16px;
@@ -284,26 +285,26 @@ text-align: center;
     height: 48px;
     margin-top: 23px;
     border: none;
-    
-    
+
+
 
 }
 
-#btn-center{
-    
+#btn-center {
+
     text-align: center;
-    
 
-    
+
+
 }
 
-#btn-better-fks:hover{
+#btn-better-fks:hover {
 
     cursor: pointer;
     background-color: #ff0a68d3;
 }
 
-#image-better-focus{
+#image-better-focus {
     width: 840px;
     border-radius: 48px;
     text-align: center;
@@ -312,6 +313,7 @@ text-align: center;
 
 
 }
+
 /* user say section */
 
 .user-say {
@@ -355,12 +357,13 @@ text-align: center;
 
 .sp-user-say-identity {
     display: flex;
-    
+
 }
 
-.sp-user-say-identity-imp-radius{
-border-radius: 9999px;
+.sp-user-say-identity-imp-radius {
+    border-radius: 9999px;
 }
+
 .sp-user-say-text-title {
     font-size: 24px;
     font-weight: bold;
@@ -395,23 +398,23 @@ border-radius: 9999px;
     margin-left: 5px;
 }
 
-#get-in-touch{
+#get-in-touch {
     max-width: 1140px;
     display: flex;
     margin: auto;
     margin-top: 92px;
     justify-content: space-around;
-    
+
     padding-bottom: 70px;
     align-items: center;
 }
 
-#touch-text{
-font-size: 90px;
-font-weight: bold;
-max-width: 500px;
- font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
+#touch-text {
+    font-size: 90px;
+    font-weight: bold;
+    max-width: 500px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
 }
 
 /* .touch-form{
@@ -421,25 +424,25 @@ max-width: 500px;
 
 /* form section */
 
-.form-lebel{
+.form-lebel {
     font-size: 18px;
     font-weight: bold;
 }
 
-#textbox-name{
-width: 500px ;
-height: 50px;
-padding: 10px;
-margin-top: 5px;
-margin-bottom: 5px;
+#textbox-name {
+    width: 500px;
+    height: 50px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 
-font-family: "Inter", sans-serif;
-font-optical-sizing: auto;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
 
-  font-style: normal;
-  background-color: #FFFFFF;
+    font-style: normal;
+    background-color: #FFFFFF;
 
-  stroke: #D6DDED;
+    stroke: #D6DDED;
     stroke-width: 1px;
     border: 1px solid #D6DDED;
     border-radius: 10px;
@@ -447,20 +450,20 @@ font-optical-sizing: auto;
 }
 
 
-#textbox-address{
-width: 500px ;
-height: 100px;
-padding: 10px;
-margin-top: 5px;
+#textbox-address {
+    width: 500px;
+    height: 100px;
+    padding: 10px;
+    margin-top: 5px;
 
-background-color: #FFFFFF;
+    background-color: #FFFFFF;
 
-font-family: "Inter", sans-serif;
-font-optical-sizing: auto;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
 
-  font-style: normal;
+    font-style: normal;
 
-  stroke: #D6DDED;
+    stroke: #D6DDED;
     stroke-width: 1px;
     border: 1px solid #D6DDED;
     border-radius: 10px;
@@ -484,34 +487,35 @@ font-optical-sizing: auto;
 
 /* footer section */
 
-.footer{
-width: 100%;
-background-color: white;
-    
+.footer {
+    width: 100%;
+    background-color: white;
+
 }
 
-.footer-container{
+.footer-container {
     width: 531px;
     margin: auto;
-    align-items:end;
+    align-items: end;
     justify-content: center;
     padding-top: 100px;
     padding-bottom: 100px;
     background-color: #FFFFFF;
 }
-.footer-logo{
+
+.footer-logo {
     font-size: 100px;
     color: #4E47FF;
     font-weight: 900;
-    
-    
-    
+
+
+
     text-align: center;
     /* margin: 0px auto; */
     /* align-items: center; */
 }
 
-.footer-description{
+.footer-description {
     width: 531px;
     color: #8987A1;
     text-align: center;
@@ -519,22 +523,23 @@ background-color: white;
 
 }
 
-.footer-menu ul{
+.footer-menu ul {
     list-style: none;
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
     color: #8987A1;
-    
 
-      font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  
-  font-style: normal;
+
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+
+    font-style: normal;
 }
 
-.footer-menu a{
+.footer-menu a {
     text-decoration: none;
-    color: #8987A1;;
-    
+    color: #8987A1;
+    ;
+
 }
