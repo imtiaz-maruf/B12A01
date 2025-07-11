@@ -2,7 +2,13 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    border: 1px solid red;
+
+    /* border: 1px solid red; */
+}
+
+body {
+
+    background-color: color-mix(in srgb, #1E1E1E, transparent 95%);
 }
 
 /* shared style */
@@ -11,21 +17,31 @@
     background-color: #4E47FF;
 }
 
+.font-header {
+    color: #252432;
+}
+
 /* header section */
 
 .header {
     background-image: url(/images/Hero-bg.png);
+
 }
 
-.inter-for-logo {
+/* .inter-for-logo {
     font-family: "Inter", sans-serif;
     font-optical-sizing: 34px;
     font-weight: 900;
     font-style: normal;
     color: #4E47FF;
     font-size: 34px;
-}
+} */
 
+.inter-for-logo {
+
+    font-size: 34px;
+    font-weight: 900;
+}
 
 
 
@@ -50,25 +66,304 @@ nav {
 .btn-sign-up {
     width: 132px;
     font-size: 16px;
-    gap: 16px;
+    border: none;
     color: white;
     border-radius: 10px;
+}
+
+.btn-sign-up:hover {
+    cursor: pointer;
+    background-color: #4d47ffd3;
 }
 
 .btn-stay-focused {
     width: 174px;
     font-size: 16px;
-    gap: 16px;
     color: white;
     border-radius: 10px;
     height: 48px;
     margin-top: 37px;
+    border: none;
+
+}
+
+.btn-stay-focused:hover {
+    cursor: pointer;
+    background-color: #4d47ffd3;
 }
 
 .cover-content {
     width: 900px;
     color: #252432;
-    margin: 150px auto 152px auto;
+    margin: 140px auto 0px auto;
     font-size: 35px;
     text-align: center;
+    padding-bottom: 100px;
+}
+
+/* action section */
+
+.see-it-in-action {
+    max-width: 1140px;
+    margin: 116px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.action-left {
+
+    max-width: 500px;
+
+}
+
+.title {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 24px;
+    color: #25243275;
+
+}
+
+
+.btn-launch-live-preview {
+    width: 230px;
+    font-size: 16px;
+    color: white;
+    border-radius: 10px;
+    height: 48px;
+    margin-top: 37px;
+    border: none;
+
+}
+
+.btn-launch-live-preview:hover {
+    cursor: pointer;
+    background-color: #4d47ffd3;
+}
+
+.action-right {
+    max-width: 400px;
+    border-radius: 50px;
+
+}
+
+div.action-right img {
+    border-radius: 50px;
+    max-width: 400px;
+}
+
+
+/* joined user section */
+
+.joined-user-main {
+
+    max-width: 1140px;
+    margin: 116px auto;
+    /* display: flex; */
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: color-mix(in srgb, #4E47FF, transparent 90%);
+
+}
+
+.joined-user-sub {
+    max-width: 850px;
+
+    margin: auto;
+    padding-bottom: 50px;
+    /* padding: 50px auto 50px; */
+
+
+}
+
+.joined-user-title {
+    font-size: 38px;
+    font-weight: bold;
+    align-items: center;
+
+    text-align: center;
+    color: #252432;
+    padding: 50px 0px;
+
+}
+
+.three-parts {
+    display: flex;
+    justify-content: space-around;
+}
+
+.small-parts {
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF
+}
+
+.small-parts-caption {
+
+    color: color-mix(in srgb, #000000, transparent 50%);
+
+    /* color: #0000007b; */
+    font-size: 20px;
+    text-align: center;
+}
+
+/* user say section */
+
+.user-say {
+    max-width: 1140px;
+    margin: 116px auto;
+    /* display: flex; */
+    justify-content: space-around;
+    align-items: center;
+
+    /* background-color: color-mix(in srgb, #4E47FF, transparent 90%); */
+}
+
+.title-user-say {
+    max-width: 1140px;
+    text-align: center;
+
+    font-size: 42px;
+    font-weight: bold;
+
+
+}
+
+.small-part-user-say {
+
+    background-color: color-mix(in srgb, #FFFFFF, transparent 50%);
+    border-radius: 14px;
+    padding: 24px;
+    stroke: #F2EDED;
+    stroke-width: 1px;
+    margin-top: 50px;
+
+
+}
+
+.description-user-say {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.sp-user-say-identity {
+    display: flex;
+}
+
+.sp-user-say-text-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1E1E1E;
+    margin-top: 20px;
+}
+
+.sp-user-say-text-description {
+    font-size: 16px;
+    font-weight: 400;
+    color: #1E1E1E;
+    margin-top: 8px;
+}
+
+.sp-user-say-identity {
+    margin-top: 24px;
+
+
+}
+
+.sp-id-description-name {
+    font-size: 16px;
+    color: #757575;
+}
+
+.sp-id-description-date {
+    font-size: 16px;
+    color: #B3B3B3
+}
+
+.sp-id-description {
+    margin-left: 5px;
+}
+
+#get-in-touch{
+    max-width: 1140px;
+    display: flex;
+    margin: auto;
+    
+    justify-content: space-around;
+    
+    padding-bottom: 70px;
+    align-items: center;
+}
+
+#touch-text{
+font-size: 97px;
+font-weight: bold;
+max-width: 500px;
+}
+
+/* .touch-form{
+
+} */
+
+
+/* form section */
+
+.form-lebel{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#textbox-name{
+width: 500px ;
+height: 50px;
+padding: 10px;
+margin-top: 5px;
+margin-bottom: 5px;
+}
+
+
+#textbox-address{
+width: 500px ;
+height: 100px;
+padding: 10px;
+margin-top: 5px;
+}
+
+.btn-get-in-touch {
+    width: 500px;
+    font-size: 16px;
+    color: white;
+    border-radius: 10px;
+    height: 48px;
+    margin-top: 37px;
+    border: none;
+
+}
+
+.btn-get-in-touch:hover {
+    cursor: pointer;
+    background-color: #4d47ffd3;
+}
+
+/* footer section */
+
+.footer{
+    width: 531px;
+    margin: auto;
+    align-items:end;
+    justify-content: center;
+    background-color: aquamarine;
+}
+.footer-logo{
+    font-size: 100px;
+    color: #4E47FF;
+    font-weight: 900;
 }
